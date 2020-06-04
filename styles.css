@@ -79,8 +79,8 @@ a {
   /* z-index: 2; */
   background: #afafaf;
   margin-top: 72px;
-  /* height: calc(100vh - 72px); */
-  height: 100vh;
+  height: calc(100vh - 72px);
+  /* height: 100vh; */
   background: linear-gradient(#857b6e5e, #0429fb1c),
     url("https://cdn.pixabay.com/photo/2020/04/08/16/32/keyboard-5017973_1280.jpg")
       center/cover no-repeat;
