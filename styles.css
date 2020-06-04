@@ -82,9 +82,7 @@ a {
   height: calc(100vh - 72px);
   /* height: 100vh; */
   background: linear-gradient(#857b6e5e, #0429fb1c),
-    url("./images/welcome-image.JPG")
-      center/cover no-repeat;
-  background-h
+    url("./images/welcome-image.JPG") center/cover no-repeat;
 }
 
 .welcome-content {
