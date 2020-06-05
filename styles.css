@@ -108,6 +108,15 @@ a {
   animation: slideFromLeft 5s ease-in-out 1;
 }
 
+@media (max-width: 436px) {
+  #title {
+    font-size: 2.5rem;
+  }
+  #sub-title {
+    font-size: 2rem;
+  }
+}
+
 @keyframes slideFromRight {
   0% {
     transform: translateX(1000px);
@@ -316,6 +325,7 @@ i {
   #contact-title {
     font-size: 2rem;
   }
+
   /* .contact-lists {
     border: 2px solid;
   } */
