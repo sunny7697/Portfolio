@@ -97,15 +97,13 @@ a {
   font-size: 3.5rem;
   /* font-family: "Piedra", cursive; */
   font-family: "Montaga", serif;
-  /* font-weight: 00; */
-  animation: slideFromRight 5s ease-in-out 1;
 }
 
 #sub-title {
   color: #931fe0;
   font-size: 2.5rem;
   font-family: "Dancing Script", cursive;
-  animation: slideFromLeft 5s ease-in-out 1;
+  animation: opac 10s ease-in-out 1;
 }
 
 @media (max-width: 436px) {
@@ -117,33 +115,18 @@ a {
   }
 }
 
-@keyframes slideFromRight {
+@keyframes opac {
   0% {
-    transform: translateX(1000px);
+    opacity: 0;
   }
   33% {
-    transform: translateX(-200px);
+    opacity: 3.33;
   }
   66% {
-    transform: translateX(50px);
+    opacity: 6.66;
   }
   100% {
-    transform: translateX(0px);
-  }
-}
-
-@keyframes slideFromLeft {
-  0% {
-    transform: translateX(-1000px);
-  }
-  33% {
-    transform: translateX(200px);
-  }
-  66% {
-    transform: translateX(-50px);
-  }
-  100% {
-    transform: translateX(0px);
+    opacity: 1;
   }
 }
 
@@ -155,16 +138,17 @@ a {
 
 #projects {
   background: #26547c9f;
-  /* max-width: 100%; */
-  /* height: 200vh; */
 }
 
 .projects-title {
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-decoration: underline;
   text-align: center;
   margin: 0px auto 40px auto;
   padding-top: 80px;
+  /* font-family: "Dancing script"; */
+  font-family: "Lemonada", cursive;
+  color: rgb(0, 0, 0);
 }
 
 .projects-div {
@@ -195,7 +179,7 @@ a {
 
   -webkit-box-shadow: 1px 10px 10px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px 10px 10px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 1px 10px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 10px 10px 0px #374b52d2;
 }
 
 figure {
@@ -329,4 +313,30 @@ i {
   /* .contact-lists {
     border: 2px solid;
   } */
+}
+
+@media (max-width: 250px) {
+  .contact-links {
+    padding-top: 5px;
+    box-shadow: 2px 2px 3px #3fcfd4;
+  }
+
+  .projects-button button {
+    box-shadow: 2px 6px 10px 0px rgba(103, 79, 173, 1);
+  }
+
+  .projects-title {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+  }
+
+  .project-tile {
+    -webkit-box-shadow: 1px 10px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 10px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 10px 10px 0px #374b52d2;
+  }
+
+  figcaption {
+    font-size: 0.9rem;
+  }
 }
