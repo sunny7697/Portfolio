@@ -343,10 +343,15 @@ i {
 
   #contact-title {
     font-size: 1.4rem;
-    border-bottom: 1px solid #3fcfd4;
+    text-decoration: underline;
+    text-decoration-color: #3fcfd4;
+    text-underline-position: under;
+    padding-bottom: 10px;
   }
   #contact-subtitle {
     font-size: 0.85rem;
-    border-bottom: 1px solid #3fcfd4;
+    text-decoration: underline;
+    text-decoration-color: #3fcfd4;
+    text-underline-position: under;
   }
 }
