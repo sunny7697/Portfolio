@@ -315,7 +315,7 @@ i {
   } */
 }
 
-@media (max-width: 200px) {
+@media (max-width: 360px) {
   .contact-links {
     padding-top: 5px;
     box-shadow: 2px 2px 3px #3fcfd4;
