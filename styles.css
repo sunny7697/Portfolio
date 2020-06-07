@@ -343,15 +343,11 @@ i {
 
   #contact-title {
     font-size: 1.4rem;
-    text-decoration: underline;
-    text-decoration-color: #3fcfd4;
-    text-underline-position: under;
     padding-bottom: 10px;
+    color: rgb(143, 158, 172);
   }
   #contact-subtitle {
     font-size: 0.85rem;
-    text-decoration: underline;
-    text-decoration-color: #3fcfd4;
-    text-underline-position: under;
+    color: rgb(143, 158, 172);
   }
 }
